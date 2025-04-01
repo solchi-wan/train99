@@ -1,0 +1,233 @@
+div#topstage {
+    width: 91vw;
+	height: 71vh;
+	padding-top: 1vh;
+	padding-left: 1vw;
+    box-sizing: border-box;
+	background: #eee;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+}
+
+.cell-base {
+	width: 8vw;
+    height: 6vh;
+	margin-right: 1vw;
+	margin-bottom: 1vh;
+    background: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+	font-size: 2.5vw;
+	line-height: 7vh;
+	cursor: pointer;
+	position: relative;
+}
+
+.hover-cell {
+    background: #fee;
+}
+
+.cross-cell {
+	background: #ffe;
+}
+
+.menu-cell {
+	background: #edd;
+}
+
+.sel-cell {
+    background: rgb(86, 30, 30);
+	color: #fff;
+}
+
+div#appDialog {
+    position: absolute;
+    width: 30vw;
+    height: 20vh;
+    background: #fff;
+    border: solid 2px #ccc;
+    border-radius: 0.5vw;
+}
+
+div#appDialog.lpos1 {
+	top: 26vh;
+}
+
+div#appDialog.lpos2 {
+	top: 32vh;
+}
+
+div#appDialog.lpos3 {
+	top: 37vh;
+}
+
+div#appDialog.lpos4 {
+	top: 42vh;
+}
+
+div#appDialog.lpos5 {
+	top: 47vh;
+}
+
+div#appDialog.lpos6 {
+	top: 52vh;
+}
+
+div#appDialog.lpos7 {
+	top: 57vh;
+}
+
+div#appDialog.lpos8 {
+	top: 62vh;
+}
+
+div#appDialog.lpos9 {
+	top: 68vh;
+}
+
+div#appDialog.tpos1 {
+	left: 20vw;
+}
+
+div#appDialog.tpos2 {
+	left: 29vw;
+}
+
+div#appDialog.tpos3 {
+	left: 38vw;
+}
+
+div#appDialog.tpos4 {
+	left: 47vw;
+}
+
+div#appDialog.tpos5 {
+	left: 56vw;
+}
+
+div#appDialog.tpos6 {
+	left: 24vw;
+}
+
+div#appDialog.tpos7 {
+	left: 33vw;
+}
+
+div#appDialog.tpos8 {
+	left: 42vw;
+}
+
+div#appDialog.tpos9 {
+	left: 51vw;
+}
+
+
+div#appMenubar {
+    width: 100%;
+    height: 2vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.5vw;
+    background: #336;
+    display: flex;
+}
+
+p#appTitle {
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+button#closeBtn {
+    position: absolute;
+    top: 0.1vh;
+    right: 0.2vw;
+    border-radius: 0.5vw;
+}
+
+p#appTitle {
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 0 1vw;
+}
+
+div#appBody {
+    position: absolute;
+    top: 2vh;
+    margin: 0;
+    width: 100%;
+    height: 18vh;
+}
+
+p#yomiDiv {
+    position: relative;
+    margin: 0.5vh 2vw;
+	text-align: center;
+}
+
+p#figDiv {
+    position: relative;
+    margin: 0.5vh 2vw;
+    font-size: 4vw;
+    text-align: center;
+    height: 9vh;
+    line-height: 9vh;
+}
+
+p#btnArea {
+    position: relative;
+    text-align: center;
+	margin: 0;
+}
+
+button#playBtn {
+    width: 5vw;
+    color: #3c3;
+}
+
+audio {
+	display: none;
+}
+
+.voiceselect > img {
+	height: 10vh;
+}
+
+ul.voicemenu {
+    list-style: none;
+    width: 90vw;
+    display: flex;
+    flex-flow: row;
+}
+
+ul.voicemenu > li {
+    width: 12vw;
+	text-align: center;
+	border-radius: 0.5vw;
+}
+
+ul.voicemenu > li:hover {
+    background: #ffc;
+}
+
+ul.voicemenu > li.selectedvoice:hover {
+    background: #fef;
+}
+
+ul.voicemenu > li.selectedvoice {
+	background: #fef;
+	border: solid 1px #c6c;
+}
+
+footer > p {
+    display: inline-block;
+    margin: 0 3vw;
+}
